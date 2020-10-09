@@ -1,0 +1,62 @@
+<%- include ('partial/header.ejs') %>
+
+	<div class="container homeHeadContainer1">
+		<div class="container homeHeadContainer2" data-aos="fade-down-right">
+			<br><br><br>
+			<div class="jumbotron jumbotronTitle">
+				<h1 class="display-4" data-aos="fade-right">Contact Us</h1>
+				<p class="lead" data-aos="fade-right" data-aos-anchor="#trigger-left" data-aos-anchor-placement="top-bottom">Contact For Premium Business Services</p>
+			</div>
+			<div class="container containerText">
+				<div class="jumbotron jumbotronText">
+					<em><h4 class="display-5" data-aos="fade-up" data-aos-anchor="#trigger-fadeup" data-aos-anchor-placement="top-bottom">We are a ping away</h4></em>
+				</div>
+			</div>
+		</div>
+		
+
+		<br>
+		<br>
+		<div class="hideDiv" id="trigger-left">
+			<div class="contactRow" id="trigger-fadeup">
+				<div class="imageLeft">
+					<img class="marinaImg" data-aos="fade-up" data-aos-anchor="#trigger-fadeupimg" data-aos-anchor-placement="top-bottom" src="/image/chennai.png">
+				</div>
+				<br><br>
+				<div class="container">
+					<div class="jumbotron jumbotronText" id="trigger-fadeupimg">
+						<em><h4 class="display-5">Contact Us</h4></em>
+					</div>
+				</div>
+				<div class="contactform">
+					<form  method="post" action="/send">
+						<h5>Hi there, Drop us a line! We would be happy to hear from you.</h5>
+						<br>
+						<div class="form-group">
+	                        <label for="name">Name</label>
+	                        <input type="text" class="form-control" id="name" name="name">
+	                    </div>
+	                    <div class="form-group">
+	                        <label for="email">Email</label>
+	                        <input type="email" class="form-control" id="email" name="email">
+	                    </div>
+	                    <div class="form-group">
+	                        <label for="enquiry">Enquiry</label>
+	                        <textarea class="form-control" id="enquiry" name="enquiry" rows="6"></textarea>
+	                    </div>
+	                    <div class="float-right"> <!-- align button to the right -->
+	                        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+	                    </div>
+                    </form>
+				</div>
+			</div>
+			<br>
+			<div class="container containerText">
+				<div class="jumbotron jumbotronText">
+					<h4 class="display-5">Lets make things awesome together!</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+<%- include ('partial/whtsapp.ejs') %>
+<%- include ('partial/footer.ejs') %>
