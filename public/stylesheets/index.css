@@ -25,11 +25,12 @@ body, html {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	max-height: 100vh;
 	/*height: 100%;*/
 }
 
 .homeHeadContainer1 .lead{
-	font-weight: 500;
+	/*font-weight: 500;*/
 }
 
 .homeHeadContainer2{
@@ -62,6 +63,10 @@ body, html {
 .jumbotronText{
 	text-align: center;
 	background-color: #b0f3f1;
+}
+
+.jumbotronText h1{
+	font-size: 1vmin;
 }
 
 .firstheaddiv{
@@ -101,9 +106,6 @@ background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
 	height: 100%;
 }
 
-img: hover{
-	background-color: cyan;
-}
 
 .cardTitle{
 	text-align: center;
@@ -121,22 +123,12 @@ img: hover{
 }
 
 .clientReview .clientImage{
-	float: left;
+	
 	height: 150px;
 	width: 150px;
-}
-
-.clientReview{
-	/*text-align: center;*/
-	margin: 10px 30px 10px 30px;
-	width: 100%;
-}
-
-.clientReview p {
-	padding-left: 200px;
-}
-.clientReview h3 {
-	padding-left: 200px;
+	display: block;
+	margin: 0px auto;
+	padding-bottom: 10px;
 }
 
 .logo{
@@ -146,7 +138,6 @@ img: hover{
 }
 
 .nireshtext{
-	width: 500px;
 	margin: auto;
 	text-align: center;
 	/*display: none;*/
@@ -209,62 +200,15 @@ img: hover{
 }
 
 /* service how we help you grow div */
-.serviceSteps {
-	/*text-align: center;*/
-	margin: 10px 30px 10px 30px;
-	width: 100%;
-}
-
-.serviceSteps p {
-	padding-left: 200px;
-	text-align: jus
-}
-.serviceSteps h3 {
-	padding-left: 200px;
-}
-
-.serviceStepsRightAlign {
-	margin: 10px 30px 10px 30px;
-	width: 100%;
-}
-
-.serviceStepsRightAlign p{
-	padding-right: 200px;
-	text-align: justify;
-}
-
-.serviceStepsRightAlign img{
-	float: right;
-}
 
 .serviceClass{
 	padding: 80px;
 }
 
-.serviceimage{
-	font-size: 6em;
-	text-align: center;
-	padding-left: 20px;
-	line-height: 40px;
-}
-
-.serviceimage{
-	font-size: 6em;
-	text-align: center;
-	padding-left: 20px;
-	line-height: 40px;
-}
-.serviceStepsRightAlign .clientImage{
-	font-size: 6em;
-	text-align: right;
-	padding-left: 20px;
-	line-height: 40px;
-}
 
 .serviceImage {
-	float: left;
-	height: 200px;
-	width: 150px;
+	height: 150px;
+	width: 120px;
 }
 /* About us page, dna and values content */
 
