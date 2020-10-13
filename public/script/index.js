@@ -14,36 +14,40 @@ AOS.init({
 
 $(".cardContent").hover(function(){
   $(this).css("background", "rgb(239,248,248)");
-  $(this).css("box-shadow", "7px 7px rgb(151,208,208)");
+  $(this).css("box-shadow", "7px 7px #3cadac");
   }, function(){
   $(this).css("box-shadow", "none");
-  $(this).css("background", "white");
+  $(this).css("background", "#ffffff");
+  $(this).css("background-image","linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%)");
+
+//   background-color: #ffffff;
+// background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
 });
 
 
-var timeout;
-$(".imgNiresh").hover(
-    function() {
-        timeout = setTimeout(function(){
-            // do stuff on hover
-             $(".nireshtext").slideDown("slow",function(){
-             	$(".nireshtext").css("display", "block");
-				$(".nireshtext").css("width","500px");
-				$(".nireshtext").css("margin","auto");
-				$(".nireshtext").css("text-align","center");
-             });
+// var timeout;
+// $(".imgNiresh").hover(
+//     function() {
+//         timeout = setTimeout(function(){
+//             // do stuff on hover
+//              $(".nireshtext").slideDown("slow",function(){
+//              	$(".nireshtext").css("display", "block");
+// 				$(".nireshtext").css("width","500px");
+// 				$(".nireshtext").css("margin","auto");
+// 				$(".nireshtext").css("text-align","center");
+//              });
            
-        }, 500);
-    },
-    function(){
-        clearTimeout(timeout);
-        // do stuff when hover off
-        $(".nireshtext").slideUp("slow",function(){
-        	$(".nireshtext").css("display","none");
-        });
+//         }, 500);
+//     },
+//     function(){
+//         clearTimeout(timeout);
+//         // do stuff when hover off
+//         $(".nireshtext").slideUp("slow",function(){
+//         	$(".nireshtext").css("display","none");
+//         });
 
-    }
-);
+//     }
+// );
 
 $('.demo').ripples({
 

@@ -4,45 +4,80 @@
 
 body, html {
 	height: 100%;
+	background-color:  #f5fafa; 
+	/*#FFFAF1;*/
 }
 
-.hideDiv{
-	/*display: none;*/
+.navbar{
+	background-color:transparent !important;
+	/*background-color: #bae0e0;*/
+
 }
+
+.navbar li a {
+	color: black;
+}
+
 .homeHeadContainer1{
-
+	/*margin-top: 100px;*/
 	padding: 40px 40px 0px 40px;
+	background-image: url("/image/laptop.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*height: 100%;*/
+}
+
+.homeHeadContainer1 .lead{
+	font-weight: 500;
 }
 
 .homeHeadContainer2{
 	/*height: 100%;#cce8e8*/
-	background-color: #bae0e0;
+	/*background-color: #bae0e0;*/
 	/*position: absolute;
 	top:70px;
     right:0px;
     bottom:20px;
     left:0px;*/
+
     height: 500px;
     padding: 40px;
     /*display: none;*/
 }
 
+.jumbotronHead{
+	background-color:transparent !important;
+}
+
 .jumbotronTitle{
-	background-color: #bae0e0;
+	/*background-color: #bae0e0;*/
+	    opacity: 1;
 }
 
 .containerText{
-	background-color: #cce8e8;
+	/*background-color: #cce8e8;*/
 	/*	padding: 40px 40px 0px 40px;*/
 }
 .jumbotronText{
 	text-align: center;
-	background-color: #cce8e8;
+	background-color: #b0f3f1;
 }
 
+.firstheaddiv{
+	margin-top: 40px;
+}
 .cardDiv{
-	margin-top: 100px;
+	margin-top: 10px;
 	margin-bottom: 10px;
+}
+
+.cardContent{
+	/*background-color: #f8f9d2;
+	background-image: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);
+	*//*background-color: #c4cace;*/
+	background-color: #ffffff;
+background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
 }
 
 .image{
@@ -82,6 +117,7 @@ img: hover{
 
 .cardNiresh{
 	border: none;
+	background-color:transparent !important;
 }
 
 .clientReview .clientImage{
@@ -113,7 +149,7 @@ img: hover{
 	width: 500px;
 	margin: auto;
 	text-align: center;
-	display: none;
+	/*display: none;*/
 }
 
 .cardContent{
@@ -263,3 +299,10 @@ img: hover{
 	font-size: 4rem;
 	color: #4FCE5D;
 }
+
+.footer .row{
+	width: 500px;
+	margin: 0px auto;
+
+}
+
