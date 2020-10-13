@@ -19,32 +19,15 @@ body, html {
 }
 
 .homeHeadContainer1{
-	/*margin-top: 100px;*/
-	padding: 40px 40px 0px 40px;
 	background-image: url("/image/laptop.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	max-height: 100vh;
-	/*height: 100%;*/
-}
-
-.homeHeadContainer1 .lead{
-	/*font-weight: 500;*/
 }
 
 .homeHeadContainer2{
-	/*height: 100%;#cce8e8*/
-	/*background-color: #bae0e0;*/
-	/*position: absolute;
-	top:70px;
-    right:0px;
-    bottom:20px;
-    left:0px;*/
-
     height: 500px;
-    padding: 40px;
-    /*display: none;*/
 }
 
 .jumbotronHead{
