@@ -1,10 +1,17 @@
-/*body{
-	display: none;
-}*/
-
-body, html {
+html{
+	overflow-y: scroll;
+	overflow-x: hidden;
 	height: 100%;
 	background-color:  #f5fafa; 
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	height: 100%;
+	background-color:  #f5fafa; 
+	margin: 0px;
+	padding: 0px;
 	/*#FFFAF1;*/
 }
 
@@ -23,6 +30,7 @@ body, html {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 	max-height: 100vh;
 }
 
@@ -32,6 +40,16 @@ body, html {
 
 .jumbotronHead{
 	background-color:transparent !important;
+	text-align: center;
+	padding: 4rem 5rem;
+}
+.jumbotronHead h1{
+	font-size: 6vw;
+	font-weight: 400;
+}
+.jumbotronHead p{
+	font-size: 2vw;
+	font-weight: 400;
 }
 
 .jumbotronTitle{
@@ -39,17 +57,13 @@ body, html {
 	    opacity: 1;
 }
 
-.containerText{
-	/*background-color: #cce8e8;*/
-	/*	padding: 40px 40px 0px 40px;*/
-}
 .jumbotronText{
 	text-align: center;
 	background-color: #b0f3f1;
 }
 
 .jumbotronText h1{
-	font-size: 1vmin;
+	font-size: 4vm;
 }
 
 .firstheaddiv{
@@ -95,8 +109,10 @@ background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
 }
 
 .imgNiresh{
-	height:250px;
-	width:180px;
+	/*height:250px;
+	width:180px;*/
+	max-height: 40vh;
+	/*max-width: 35vw;*/
 	align-items: center;
 }
 
@@ -136,8 +152,7 @@ background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
 	/*width: 700px;*/
 }
 .marinaImg{
-	/*max-width: 100%; */
-	max-height: 350px;
+	max-width: 50vw; 
 }
 
 .contactRow{
@@ -154,7 +169,8 @@ background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
 }
 
 .contactform{
-	width: 700px;
+	/*width: 700px;*/
+	max-width: 60vw;
 	margin: 0px auto;
 }
 
@@ -162,10 +178,10 @@ background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
 
 .demo{
 	height: 100%;
-	/*width: 1000px;
-	min-width: 100%;
-	min-height: 100%;
-	background-size:100% 100%;*/
+		width: 1000px;
+		min-width: 100%;
+		min-height: 100%;
+		background-size:100% 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -178,9 +194,49 @@ background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
 
 /* footer goes here */
 .footer{
-	height: 100px;
-	background-color: #f8f9fa;
+	height: 180px;
+	background-color: #58595b;
 }
+
+.footer .footerrow{
+	max-width: 80vw;
+	/*width: 500px;*/
+	padding: 20px 0px 0px 0px;
+	margin: 0px auto;
+}
+
+.footer  div{
+	padding: 0px 0px 0px 0px;
+}
+.socialicon{
+	margin: 0px;
+}
+
+.footer .link{
+	max-width: 50vw;
+}
+
+.footer .link a{
+	color: #17a2b8;
+	font-weight: bold;
+	font-size: 1.3vw;
+}
+
+.footer p, .footer a{
+	font-size: 1.2vw;
+	text-align: center;
+	color: white;
+}
+
+.socialicon a{
+	font-size: 1.2vw;
+	text-align: left;
+	color: white;
+}
+.footer .fab{
+	font-size: 2vw;
+}
+
 
 /* service how we help you grow div */
 
@@ -196,7 +252,7 @@ background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
 /* About us page, dna and values content */
 
 .about{
-	padding: 20px 150px;
+	padding: 20px 20px;
 }
 
 .about .dna{
@@ -222,14 +278,9 @@ background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
 	bottom: 20px;
 }
 
-.fa-whatsapp{
+.whtsappicon{
 	font-size: 4rem;
 	color: #4FCE5D;
 }
 
-.footer .row{
-	width: 500px;
-	margin: 0px auto;
-
-}
 

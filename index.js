@@ -5,11 +5,9 @@ var bodyparser = require("body-parser");
 app.use(bodyparser.urlencoded({extended:true}));
 app.use(express.static(__dirname + '/public'));
 
-app.get("/",function(req,res){
-	res.render("ripple.ejs");
-});
 
-app.get("/home",function(req,res){
+
+app.get("/",function(req,res){
 	res.render("home.ejs");
 });
 
@@ -23,6 +21,10 @@ app.get("/about",function(req,res){
 
 app.get("/contact",function(req,res){
 	res.render("contact.ejs");
+});
+
+app.get("/ripple",function(req,res){
+  res.render("ripple.ejs");
 });
 
 app.get("/happybirthday",function(req,res){
