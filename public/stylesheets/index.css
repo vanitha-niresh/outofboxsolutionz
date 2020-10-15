@@ -246,6 +246,11 @@ body {
 	align-items: center;
 	text-align: center;
 }
+
+.footer hr{
+	width: 75%;
+	border-color: white;
+}
 /* service how we help you grow div */
 
 .serviceClass{
