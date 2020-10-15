@@ -11,6 +11,24 @@ AOS.init({
  duration: 1200
 });
 
+$(document).ready(function () {
+
+    // Navbar collapse on scroll below 100px
+    changeNavbar();
+
+    $(window).scroll(function () {
+        changeNavbar();
+    });
+
+    function changeNavbar() {
+        var navbar = $("#main-nav");
+        if ($(this).scrollTop() >= 100) {
+            navbar.removeClass("navbar-expand");
+        } else if ($(this).scrollTop() < 100) {
+            navbar.addClass("navbar-expand");
+        }
+    }
+});
 
 $(".cardContent").hover(function(){
   $(this).css("background", "rgb(239,248,248)");

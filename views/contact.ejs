@@ -28,6 +28,18 @@
 				<div class="contactform">
 					<form  method="post" action="/send">
 						<h5>Hi there, Drop us a line! We would be happy to hear from you.</h5>
+						<div class="container">
+							<% if(success && success.length>0){ %>
+								<div class="alert alert-success">
+									<%= success %>
+								</div>
+							<%	} %>
+							<% if(error && error.length>0){ %>
+							<div class="alert alert-danger">
+								<%= error %>
+							</div>
+							<%	} %>
+						</div>
 						<br>
 						<div class="form-group">
 	                        <label for="name">Name</label>

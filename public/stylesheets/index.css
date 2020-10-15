@@ -33,17 +33,22 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	max-height: 100vh;
+	height: 100%;
+
 }
 
 .homeHeadContainer2{
-    height: 500px;
+    /*height: 500px;*/
+     margin: 0px auto;
+  position: relative;
+  top: 30%;
 }
 
 .jumbotronHead{
 	background-color:transparent !important;
 	text-align: center;
 	padding: 4rem 5rem;
+	margin: 0px auto;
 }
 .jumbotronHead h1{
 	font-size: 4rem;
@@ -199,56 +204,40 @@ body {
 }
 
 /* footer goes here */
-.footer{
-	height: 40vh;
+footer{
+	height: 50vh;
 	background-color: #58595b;
+	/*height: auto;*/
+	overflow: auto;
 }
 
-.footer .footerrow{
+footer .footerrow{
 	/*max-width: 90vw;*/
 	/*width: 500px;*/
 	padding: 20px 0px 0px 0px;
 	margin: 0px auto;	
 }
 
-.footer  div{
+footer  div{
 	padding: 0px;
-}
-.socialicon{
-	margin: 0px;
-}
-
-.footer .link{
-	max-width: 80vw;
-	align-items: center;
 	margin: 0px auto;
+	align-items: center;
+	text-align: center;
 }
 
-.footer .link a{
-	color: #17a2b8;
-	font-weight: bold;
-	font-size: 2.3vh;
-}
-
-.footer p, .footer a{
-	font-size: 1.8vh;
+footer p, footer a{
+	font-size: 3vh;
 	text-align: center;
 	color: white;
 }
 
 
-.footer .fab, .footer .fas{
-	font-size: 1.8vw;
+footer .fab, footer .fas{
+	font-size: 3vh;
 }
 
-.footer div{
-	margin: 0px auto;
-	align-items: center;
-	text-align: center;
-}
-
-.footer hr{
-	width: 75%;
+footer hr{
+	width: 90%;
 	border-color: white;
 }
 /* service how we help you grow div */
