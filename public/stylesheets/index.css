@@ -226,14 +226,14 @@ footer  div{
 }
 
 footer p, footer a{
-	font-size: 3vh;
+	font-size: 2vh;
 	text-align: center;
 	color: white;
 }
 
 
 footer .fab, footer .fas{
-	font-size: 3vh;
+	font-size: 2vh;
 }
 
 footer hr{
