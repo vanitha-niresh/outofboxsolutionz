@@ -205,7 +205,7 @@ body {
 }
 
 .footer .footerrow{
-	max-width: 80vw;
+	/*max-width: 90vw;*/
 	/*width: 500px;*/
 	padding: 20px 0px 0px 0px;
 	margin: 0px auto;	
@@ -241,7 +241,11 @@ body {
 	font-size: 1.8vw;
 }
 
-
+.footer div{
+	margin: 0px auto;
+	align-items: center;
+	text-align: center;
+}
 /* service how we help you grow div */
 
 .serviceClass{
