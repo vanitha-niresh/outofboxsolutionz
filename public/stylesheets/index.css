@@ -2,6 +2,7 @@ html{
 	overflow-y: scroll;
 	overflow-x: hidden;
 	height: 100%;
+	width: 100%;
 	background-color:  #f5fafa; 
 	margin: 0px;
 	padding: 0px;
@@ -9,6 +10,7 @@ html{
 
 body {
 	height: 100%;
+	width: 100%;
 	background-color:  #f5fafa; 
 	margin: 0px;
 	padding: 0px;
