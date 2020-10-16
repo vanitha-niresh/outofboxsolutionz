@@ -14,6 +14,7 @@ body {
 	background-color:  #f5fafa; 
 	margin: 0px;
 	padding: 0px;
+	font-family: 'Myriad Set Pro bold', sans-serif;
 	/*#FFFAF1;*/
 }
 
@@ -39,9 +40,9 @@ body {
 
 .homeHeadContainer2{
     /*height: 500px;*/
-     margin: 0px auto;
-  position: relative;
-  top: 30%;
+    margin: 0px auto;
+  	position: relative;
+  	top: 30%;
 }
 
 .jumbotronHead{
@@ -66,7 +67,7 @@ body {
 
 .jumbotronText{
 	text-align: center;
-	background-color: #b0f3f1;
+	background-color: #8094D3;
 }
 
 .jumbotronText h1{
@@ -162,26 +163,33 @@ body {
 	text-align: center;
 	/*width: 700px;*/
 }
-.marinaImg{
+/*.marinaImg{
 	max-width: 50vw; 
-}
+}*/
 
 .contactRow{
 	margin: 50px auto 60px auto;
 }
 
-.contactform h5{
+.contactform form h5{
 	text-align: center;
-	padding: 5px;
 }
 
 .contactform .form-control{
 	background-color: #f2f3f4;
 }
 
+.contactform ul{
+	list-style-type: none;
+}
+
+.contactform .contact-column{
+	padding-bottom:30px;
+}
+
 .contactform{
 	/*width: 700px;*/
-	max-width: 60vw;
+	max-width: 90%;
 	margin: 0px auto;
 }
 

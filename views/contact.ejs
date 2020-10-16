@@ -16,50 +16,80 @@
 
 		<div class="hideDiv" >
 			<div class="contactRow" id="trigger-fadeup">
-				<div class="imageLeft">
-					<img class="marinaImg" data-aos="fade-up" data-aos-anchor="#trigger-fadeupimg" data-aos-anchor-placement="top-bottom" src="/image/chennai.png">
-				</div>
-				<br><br>
-				<div class="container">
-					<div class="jumbotron jumbotronText" id="trigger-fadeupimg">
-						<em><h4 class="display-5">Contact Us</h4></em>
-					</div>
-				</div>
-				<div class="contactform">
-					<form  method="post" action="/send">
-						<h5>Hi there, Drop us a line! We would be happy to hear from you.</h5>
-						<div class="container">
-							<% if(success && success.length>0){ %>
-								<div class="alert alert-success">
-									<%= success %>
-								</div>
-							<%	} %>
-							<% if(error && error.length>0){ %>
-							<div class="alert alert-danger">
-								<%= error %>
+				<div class="row contactform">
+					<div class="col-12 col-lg-7 contact-column">
+						<form  method="post" action="/send">
+							<h5>Hi there, Drop us a line! We would be happy to hear from you</h5>
+							<div>
+								<% if(success && success.length>0){ %>
+										<div class="alert alert-success">
+											<%= success %>
+										</div>
+								<%	} else if(error && error.length>0){ %> %>
+								
+										<div class="alert alert-danger">
+											<%= error %>
+										</div>
+								<%	} %>
 							</div>
-							<%	} %>
-						</div>
-						<br>
-						<div class="form-group">
-	                        <label for="name">Name</label>
-	                        <input type="text" class="form-control" id="name" name="name">
-	                    </div>
-	                    <div class="form-group">
-	                        <label for="email">Email</label>
-	                        <input type="email" class="form-control" id="email" name="email">
-	                    </div>
-	                    <div class="form-group">
-	                        <label for="enquiry">Enquiry</label>
-	                        <textarea class="form-control" id="enquiry" name="enquiry" rows="6"></textarea>
-	                    </div>
-	                    <div class="float-right"> <!-- align button to the right -->
-	                        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
-	                    </div>
-                    </form>
+							<br>
+							<div class="form-group">
+		                        <label for="name">Name</label>
+		                        <input type="text" class="form-control" id="name" name="name">
+		                    </div>
+		                    <div class="form-group">
+		                        <label for="email">Email</label>
+		                        <input type="email" class="form-control" id="email" name="email">
+		                    </div>
+		                    <div class="form-group">
+		                        <label for="enquiry">Enquiry</label>
+		                        <textarea class="form-control" id="enquiry" name="enquiry" rows="4"></textarea>
+		                    </div>
+		                    <input type="submit" class="btn btn-primary" name="submit" value="submit">
+		                    <input type="reset" class="btn btn-primary" name="reset" value="reset">
+		                    
+	                    </form>
+	                </div>
+	                <div class="col-12 col-lg-5 contact-column">
+	                	<ul>
+	                		<li class="icons-list">
+				                <strong>Address:</strong><br>
+				                Surrendra Nagar, Adambakkam<br>
+				                Chennai - 600 088, India<br>
+				            </li>
+				            <br>
+			                <li>
+				                <strong>Email:</strong><br>
+				                outofboxsolutionz@gmail.com
+			                </li>
+			                <br>
+			                <li>
+				                <strong>Call:</strong><br>
+				                +91 81 2250 4145
+			                </li>
+			                <br>
+			                <li>
+				                <strong>WhatsApp:</strong><br>
+				                +91 95 6658 8692
+			                </li>
+			                <br>
+			                <li>
+				                <strong>Website:</strong><br>
+				                www.outofboxsolutionz.com
+				            </li>
+		                </ul>
+	                </div>
 				</div>
+				<%#<div class="container">%>
+				<%#	<div class="jumbotron jumbotronText" id="trigger-fadeupimg">%>
+				<%#		<em><h4 class="display-5">Contact Us</h4></em>%>
+				<%#	</div>%>
+				<%#</div>%>
+				<%# <div class="imageLeft"> %>
+				<%#	<img class="marinaImg" data-aos="fade-up" data-aos-anchor="#trigger-fadeupimg" data-aos-anchor-placement="top-bottom" src="/image/chennai.png"> %>
+				<%#</div> %>
+				
 			</div>
-			<br>
 			<div class="container containerText">
 				<div class="jumbotron jumbotronText">
 					<h4 class="display-5">Lets make things awesome together!</h4>
