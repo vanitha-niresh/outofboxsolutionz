@@ -29,14 +29,21 @@ body {
 }
 
 .homeHeadContainer1{
+	
+	height: 100%;
+
+}
+
+
+.homeHeadContainer1{
 	background-image: url("/image/laptop.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	height: 100%;
-
 }
+
 
 .homeHeadContainer2{
     /*height: 500px;*/
@@ -239,6 +246,10 @@ footer p, footer a{
 	color: white;
 }
 
+footer .footerrow p a:hover{
+	text-decoration: underline;
+	color: white;
+}
 
 footer .fab, footer .fas{
 	font-size: 2vh;
