@@ -1,0 +1,308 @@
+html{
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height: 100%;
+	width: 100%;
+	background-color:  #f5fafa; 
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	background-color:  #f5fafa; 
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Myriad Set Pro bold', sans-serif;
+	/*#FFFAF1;*/
+}
+
+.navbar{
+	background-color:transparent !important;
+	/*background-color: #bae0e0;*/
+
+}
+
+.navbar li a {
+	color: black;
+}
+
+.homeHeadContainer1{
+	
+	height: 100%;
+
+}
+
+
+.homeHeadContainer1{
+	background-image: url("/image/laptop.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+}
+
+
+.homeHeadContainer2{
+    /*height: 500px;*/
+    margin: 0px auto;
+  	position: relative;
+  	top: 30%;
+}
+
+.jumbotronHead{
+	background-color:transparent !important;
+	text-align: center;
+	padding: 4rem 5rem;
+	margin: 0px auto;
+}
+.jumbotronHead h1{
+	font-size: 4rem;
+	font-weight: 400;
+}
+.jumbotronHead p{
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+.jumbotronTitle{
+	/*background-color: #bae0e0;*/
+	    opacity: 1;
+}
+
+.jumbotronText{
+	text-align: center;
+	background-color: #8094D3;
+}
+
+.jumbotronText h1{
+	font-size: 4vm;
+}
+
+.firstheaddiv{
+	margin-top: 40px;
+}
+
+.hideDiv, #trigger-fade-down5{
+	overflow: hidden;
+}
+.cardDiv{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.cardContent{
+	/*background-color: #f8f9d2;
+	background-image: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);
+	*//*background-color: #c4cace;*/
+	background-color: #ffffff;
+	background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+}
+
+.image{
+	font-size: 4em;
+	text-align: center;
+	padding-left: 20px;
+}
+
+.row{
+	margin:12px;
+}
+.cardWrapper{
+	padding-top: 10px;
+	padding-bottom: 10px; 
+	/*margin: 2px;*/
+	width: 50%;
+}
+
+.card{
+	width: 100%;
+	height: 100%;
+}
+
+
+.cardTitle{
+	text-align: center;
+}
+
+.imgNiresh{
+	/*height:250px;
+	width:180px;*/
+	max-height: 40vh;
+	/*max-width: 35vw;*/
+	align-items: center;
+}
+
+.cardNiresh{
+	border: none;
+	background-color:transparent !important;
+}
+
+.clientReview .clientImage{
+	
+	height: 150px;
+	width: 150px;
+	display: block;
+	margin: 0px auto;
+	padding-bottom: 10px;
+}
+
+.logo{
+	height: 70px;
+	width: 100px;
+	font-size: 4px;
+}
+
+.nireshtext{
+	margin: auto;
+	text-align: center;
+	/*display: none;*/
+}
+
+.cardContent{
+	padding: 5px;
+	/*display: none;*/
+}
+
+.imageLeft{
+	text-align: center;
+	/*width: 700px;*/
+}
+/*.marinaImg{
+	max-width: 50vw; 
+}*/
+
+.contactRow{
+	margin: 50px auto 60px auto;
+}
+
+.contactform form h5{
+	text-align: center;
+}
+
+.contactform .form-control{
+	background-color: #f2f3f4;
+}
+
+.contactform ul{
+	list-style-type: none;
+}
+
+.contactform .contact-column{
+	padding-bottom:30px;
+}
+
+.contactform{
+	/*width: 700px;*/
+	max-width: 90%;
+	margin: 0px auto;
+}
+
+
+
+.demo{
+	height: 100%;
+	width: 1000px;
+	min-width: 100%;
+	min-height: 100%;
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.demo a{
+	position: absolute;
+	bottom: 5%;
+	left: 45%;
+}
+
+/* footer goes here */
+footer{
+	height: 50vh;
+	background-color: #58595b;
+	/*height: auto;*/
+	overflow: auto;
+}
+
+footer .footerrow{
+	/*max-width: 90vw;*/
+	/*width: 500px;*/
+	padding: 20px 0px 0px 0px;
+	margin: 0px auto;	
+}
+
+footer  div{
+	padding: 0px;
+	margin: 0px auto;
+	align-items: center;
+	text-align: center;
+}
+
+footer p, footer a{
+	font-size: 2vh;
+	text-align: center;
+	color: white;
+}
+
+footer .footerrow p a:hover{
+	text-decoration: underline;
+	color: white;
+}
+
+footer .fab, footer .fas{
+	font-size: 2vh;
+}
+
+footer hr{
+	width: 90%;
+	border-color: white;
+}
+/* service how we help you grow div */
+
+.serviceClass{
+	/*padding: 80px;*/
+	max-width: 90%;
+}
+
+
+.serviceImage {
+	height: 150px;
+	width: 120px;
+}
+/* About us page, dna and values content */
+
+.about{
+	padding: 20px 20px;
+}
+
+.about .dna{
+	text-align: left;
+}
+.values div p, .values div h1{
+	text-align: center;
+}
+
+.values div hr{
+	width: 20%;
+	border-color: blue;
+}
+
+.about h6{
+	font-size: 0.75rem;
+}
+
+/* About us page, dna and values content */
+.whtsapp{
+	position: fixed;
+	right: 5%;
+	bottom: 5%;
+}
+
+.whtsappicon{
+	font-size: 4rem;
+	color: #4FCE5D;
+}
+
+
